@@ -1,34 +1,27 @@
 Package: ggsegJHU
 Title: JHU datasets for the ggseg-plotting tool
 Version: 1.0
-Authors@R: c(person("Athanasia Mo", "Mowinckel", 
-                    email = "a.m.mowinckel@psykologi.uio.no", 
-                    role = c("aut", "cre"),
-                    comment = c(ORCID = "0000-0002-5756-0223")),
-            person("Didac", "Vidal-Piñeiro", 
-                    email = "d.v.pineiro@psykologi.uio.no", 
-                    role = c("aut"),
-                    comment = c(ORCID = "0000-0001-9997-9156")))
-Description: This is a support package for the ggseg, and ggseg3d packages.
-    It contains the JHU atlases to plot using functions from those two packages.
+Authors@R: c(person("Athanasia Mo", "Mowinckel", email =
+        "a.m.mowinckel@psykologi.uio.no", role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0002-5756-0223")), person("Didac",
+        "Vidal-Pi<c3><b1>eiro", email = "d.v.pineiro@psykologi.uio.no",
+        role = c("aut"), comment = c(ORCID = "0000-0001-9997-9156")))
+Description: This is a support package for the ggseg, and ggseg3d
+        packages. It contains the JHU atlases to plot using functions
+        from those two packages.
 License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.1.0
 Depends: R (>= 2.10)
 LazyData: true
-Suggests:
-    ggseg,
-    ggseg3d,
-    ggplot2,
-    tidyr,
-    knitr,
-    rmarkdown,
-    covr,
-    testthat (>= 2.1.0),
-    devtools
+Suggests: ggseg, ggseg3d, ggplot2, tidyr, knitr, rmarkdown, covr,
+        testthat (>= 2.1.0), devtools
 VignetteBuilder: knitr
-Remotes: 
-    LCBC-UiO/ggseg,
-    LCBC-UiO/ggseg3d
 URL: https://github.com/LCBC-UiO/ggsegJHU
 BugReports: https://github.com/LCBC-UiO/ggsegJHU/issues
+Additional_repositories: https://neuroconductor.org/releases/2020/10/
+Repository: Neuroconductor-Releases
+Remotes:  
+    neuroconductor-releases/ggseg@f791b06f1fb520671a990350241378a160593894,
+    neuroconductor-releases/ggseg3d@86c267629d738566b87bb8dbfe92d813b455724e
+biocViews: 
